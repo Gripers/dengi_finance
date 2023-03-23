@@ -1,0 +1,38 @@
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid #eaefff;
+  padding: 20px;
+
+  nav {
+    display: flex;
+    gap: 20px;
+
+    a {
+      color: #819ec7;
+      text-decoration: none;
+    }
+  }
+
+  .end {
+    button {
+      border-radius: 40px;
+      background: linear-gradient(
+        224.39deg,
+        #35d5a5 2.1%,
+        #00c7c5 32.94%,
+        #2d9be0 57.62%,
+        #5277f7 71.52%,
+        #5b75f6 79.13%,
+        #7370f4 91.42%,
+        #836df3 98.23%
+      );
+      color: white;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 10px 20px;
+    }
+  }
+}
